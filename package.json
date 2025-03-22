@@ -1,5 +1,5 @@
 {
-  "name": "facebook-login-tlc",
+  "name": "tlcgroup-capacitor-facebook-login",
   "version": "1.0.0",
   "description": "A native plugin for Facebook Login",
   "engines": {
@@ -16,20 +16,20 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "FacebookLoginTlc.podspec"
+    "TlcgroupCapacitorFacebookLogin.podspec"
   ],
   "author": "Masahiko Sakakibara <sakakibara@rdlabo.jp>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ashish-mahour/facebook-login.git"
+    "url": "git@github.com:Shailendra2021/facebook-login.git"
   },
   "bugs": {
-    "url": "git@github.com:ashish-mahour/facebook-login.git/issues"
+    "url": "git@github.com:Shailendra2021/facebook-login.git/issues"
   },
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
-    "verify:ios": "xcodebuild -scheme FacebookLoginTlc -destination generic/platform=iOS",
+    "verify:ios": "xcodebuild -scheme TlcgroupCapacitorFacebookLogin -destination generic/platform=iOS",
     "verify:android": "cd android && ./gradlew clean build test && cd ..",
     "verify:web": "npm run build",
     "lint": "npm run eslint && npm run prettier -- --check && npm run swiftlint -- lint",

@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "FacebookLoginTlc",
+    name: "TlcgroupCapacitorFacebookLogin",
     platforms: [.iOS(.v14)],
     products: [
         .library(
